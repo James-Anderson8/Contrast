@@ -1,0 +1,1 @@
+tile_set_empty(spr_cube)
