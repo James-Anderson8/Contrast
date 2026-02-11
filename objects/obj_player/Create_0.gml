@@ -9,7 +9,3 @@ if (!variable_instance_exists(id, "dimension_initialised")) {
 	}
 	dimension_initialised = true;
 }
-// TEST FOR GITHUB
-// TEST 2
-
-// TEST 3 3	

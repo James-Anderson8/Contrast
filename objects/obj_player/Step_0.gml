@@ -1,4 +1,4 @@
-/*
+/* Original movement code
 if (keyboard_check(vk_left)) or keyboard_check(ord("A"))
 {
     x = x - 3;						// Goes left
@@ -51,4 +51,8 @@ if keyboard_check(vk_down) or keyboard_check(ord("S"))
 	}
 }
 
-	
+
+// Space key to toggle dimension
+if (keyboard_check_pressed(vk_space)) {
+	dimension_manager();
+}
