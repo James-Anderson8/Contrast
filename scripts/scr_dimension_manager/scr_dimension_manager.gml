@@ -1,5 +1,10 @@
-function dimension_manager(){
-	global.current_dimension != global.current_dimension;
+#macro BOTH 0
+#macro NORMAL 1
+#macro CONTRAST 2
+
+
+function dimension_manager() {
+	global.current_dimension = !global.current_dimension;
 }
 
 with (obj_wall) {
@@ -17,3 +22,5 @@ with (obj_wall) {
 	} else {
 		visible = false;
 		solid = false;
+	}
+}
