@@ -1,3 +1,5 @@
+/*
+
 #macro BOTH 0
 #macro NORMAL 1
 #macro CONTRAST 2
@@ -24,3 +26,4 @@ with (obj_wall) {
 		solid = false;
 	}
 }
+*/

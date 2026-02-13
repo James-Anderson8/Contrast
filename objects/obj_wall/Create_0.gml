@@ -5,4 +5,4 @@ NORMAL = Only visible in original mode
 CONTRAST = Only visible in contrast
 */
 
-dimension = BOTH;
+// dimension = BOTH;

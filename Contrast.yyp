@@ -60,6 +60,7 @@
     {"id":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"scr_dimension_manager","path":"scripts/scr_dimension_manager/scr_dimension_manager.yy",},},
+    {"id":{"name":"scr_tile_convert","path":"scripts/scr_tile_convert/scr_tile_convert.yy",},},
     {"id":{"name":"cloud","path":"sprites/cloud/cloud.yy",},},
     {"id":{"name":"Menu_button","path":"sprites/Menu_button/Menu_button.yy",},},
     {"id":{"name":"pixil_frame_0__1_","path":"sprites/pixil_frame_0__1_/pixil_frame_0__1_.yy",},},

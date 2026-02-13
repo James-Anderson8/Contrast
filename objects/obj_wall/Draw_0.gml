@@ -1,5 +1,5 @@
 // Check if this wall should be visible
-
+/*
 if (dimension == BOTH) {
 	event_perform(ev_draw, 0);
 }
@@ -13,4 +13,4 @@ if (dimension == BOTH) {
 		// Dont draw
 	}
 	
-	
+	*/
