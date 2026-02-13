@@ -21,6 +21,7 @@
     {"name":"Button_parent","order":6,"path":"objects/Button_parent/Button_parent.yy",},
     {"name":"help_text","order":9,"path":"objects/help_text/help_text.yy",},
     {"name":"menu_titles","order":2,"path":"objects/menu_titles/menu_titles.yy",},
+    {"name":"obj_control_dimension","order":12,"path":"objects/obj_control_dimension/obj_control_dimension.yy",},
     {"name":"obj_cube","order":8,"path":"objects/obj_cube/obj_cube.yy",},
     {"name":"Obj_door","order":7,"path":"objects/Obj_door/Obj_door.yy",},
     {"name":"obj_player","order":10,"path":"objects/obj_player/obj_player.yy",},

@@ -47,6 +47,7 @@
     {"id":{"name":"help_button","path":"objects/help_button/help_button.yy",},},
     {"id":{"name":"help_text","path":"objects/help_text/help_text.yy",},},
     {"id":{"name":"menu_titles","path":"objects/menu_titles/menu_titles.yy",},},
+    {"id":{"name":"obj_control_dimension","path":"objects/obj_control_dimension/obj_control_dimension.yy",},},
     {"id":{"name":"obj_cube","path":"objects/obj_cube/obj_cube.yy",},},
     {"id":{"name":"Obj_door","path":"objects/Obj_door/Obj_door.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},

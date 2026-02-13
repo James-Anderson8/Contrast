@@ -1,0 +1,1 @@
+scr_setup_level2_tilemaps();

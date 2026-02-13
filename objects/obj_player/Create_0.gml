@@ -10,3 +10,7 @@ if (!variable_instance_exists(id, "dimension_initialised")) {
 	dimension_initialised = true;
 }
 */
+
+hsp = 0;
+vsp = 0;
+grav = 0.5;
