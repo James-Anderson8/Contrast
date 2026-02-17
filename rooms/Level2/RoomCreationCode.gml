@@ -1,1 +1,1 @@
-scr_setup_level2_tilemaps();
+scr_tile_convert()	
