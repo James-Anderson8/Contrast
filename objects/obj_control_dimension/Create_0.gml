@@ -1,5 +1,4 @@
-global.dimension = "base";
-global.keys = 0; // Key count initialised
+global.dimension = "base"; // Maybe change to "base" if not working
 
 base_layer = layer_get_id("Normal_tiles");
 contrast_layer = layer_get_id("Contrast_tiles");
@@ -21,5 +20,4 @@ contrast_tilemap = -1;
 
 switch_cooldown = 0;
 flash_timer = 0;
-show_dimension_text = 0;
-
+show_dimension_text = 0; 

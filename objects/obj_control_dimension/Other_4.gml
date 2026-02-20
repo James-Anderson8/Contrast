@@ -14,3 +14,9 @@ if (contrast_layer != -1) {
     layer_set_visible(contrast_layer, false);
 }
 
+if (room == Level3) {
+	background_dark = true;
+} 
+else {
+	background_dark = false;
+}

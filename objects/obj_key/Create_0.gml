@@ -1,1 +1,2 @@
+/*
 collected = false;

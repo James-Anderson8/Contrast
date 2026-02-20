@@ -16,11 +16,11 @@ if (keyboard_check_pressed(vk_space) && switch_cooldown == 0) {
             layer_set_visible(base_layer, true);
             layer_set_visible(contrast_layer, false);
         }
-		
+        
         switch_cooldown = 15;
         flash_timer = 6;
+		show_dimension_text = 30;
     }
-	show_dimension_text = 30;
 }
 
 if (flash_timer > 0) {
