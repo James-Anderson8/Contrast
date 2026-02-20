@@ -15,17 +15,25 @@ if (flash_timer > 0) {
 }
 
 // Only show HUD if we're in a dimension-switching level
-if (base_layer != -1 && contrast_layer != -1) {
-    draw_set_halign(fa_center);
-    
-    if (global.dimension == "normal") {
-        draw_set_color(c_white);
-        draw_text(room_width/2, 30, "NORMAL DIMENSION");
-    } else {
-        draw_set_color(c_black);
-        draw_text(room_width/2, 30, "Base DIMENSION");
-    }
-    
-    draw_set_halign(fa_left);
-    draw_set_color(c_white);
+if (show_dimension_text > 0) {
+	show_dimension_text--;
+	
+	var alpha = min(1, show_dimension_text / 15);
+	draw_set_alpha(alpha)
+	draw_set_halign(fa_center);
+	if (global.dimension == "base") {
+		draw_set_colour(c_black);
+		draw_text(room_width / 2, 30, "Normal");
+	}
+	else {
+		draw_set_colour(c_black);
+		draw_text(room_width/2, 30, "Contrast");
+	}
+	
+	draw_set_alpha(1);
+	draw_set_halign(fa_left);
 }
+
+// Key counter
+draw_sprite(spr_key, 0, 50, 50);
+draw_text(80, 55, "x " + string(global.keys));
