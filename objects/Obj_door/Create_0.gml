@@ -1,4 +1,2 @@
-/*
-locked = true;
-
-door_level = 1
+keys_needed = 0;
+locked = false;

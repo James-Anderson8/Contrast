@@ -1,4 +1,3 @@
-/*
 if (!collected) {
 	collected = true;
 	global.keys += 1;
