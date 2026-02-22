@@ -52,6 +52,6 @@ if (room == Level3 || room == Level4) {  // Add more rooms once created
 		draw_set_colour(c_black);
 	}
 	
-	draw_text(85, 55, "x " + string(global.keys) + " CHECK DRAW GUI EVENT TO FIX BIG KEY SPRITE IN MIDDLE OF LEVEL");
+	draw_text(85, 55, "x " + string(global.keys));
 	draw_set_colour(c_white);
 }
