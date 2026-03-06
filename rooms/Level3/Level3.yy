@@ -30,7 +30,7 @@
           1,0,1,0,1,-4,0,-2,1,2,0,1,-7,0,3,1,0,1,-5,0,1,1,-13,0,5,1,0,1,0,1,-6,0,-3,1,-7,0,3,1,0,1,-5,0,1,1,-14,
           0,3,1,0,1,-9,0,1,1,-7,0,3,1,0,1,-5,0,-6,1,-10,0,1,1,-10,0,1,1,-7,0,3,1,0,1,-10,0,1,1,-21,0,1,1,-7,0,
           3,1,0,1,-10,0,2,1,0,-21,1,-7,0,3,1,0,1,-10,0,3,1,0,1,-27,0,2,1,0,-12,1,2,0,1,-27,0,1,1,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Contrast_tiles","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Contrast_tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":43,"TileCompressedData":[
           -87,0,-42,2,2,0,2,-6,0,1,2,-10,0,1,2,-10,0,1,2,-7,0,1,2,-3,0,3,2,0,2,-6,0,1,2,-10,0,1,2,-11,0,1,2,-7,
           0,6,2,0,0,2,0,2,-6,0,1,2,-10,0,1,2,-12,0,1,2,-7,0,5,2,0,2,0,2,-6,0,1,2,-10,0,1,2,-13,0,1,2,-7,0,-2,2,

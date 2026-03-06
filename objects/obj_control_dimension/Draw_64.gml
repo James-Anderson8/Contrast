@@ -29,7 +29,7 @@ if (show_dimension_text > 0) {
         draw_set_color(c_black);  // Black text on light background
     }
 	
-	
+	draw_set_font(Title);
     if (global.dimension == "base") {
         draw_text(room_width/2, 30, "Normal");
     } else {
@@ -42,7 +42,7 @@ if (show_dimension_text > 0) {
 
 // Key counter
 
-if (room == Level3 || room == Level4) {  // Add more rooms once created
+if (room == Level3 || room == Level4 || room = Level5 ) {  // Add more rooms once created
 	draw_sprite(spr_key, 0, 50, 50); // I think this line is drawing the big key sprite
 	
 	if (background_dark) {

@@ -1,5 +1,3 @@
-
-
 if (keys_needed <= 0) {
 	room_goto_next();
 	exit;
@@ -15,6 +13,11 @@ if (global.keys >= keys_needed) {
 	global.keys -= keys_needed;
 	room_goto_next();
 }
+
 else {
+	if (!message_shown) {
 	show_message("Door is locked! You need " + string(keys_needed) + " key(s) and you have " + string(global.keys) + " collected");
+	message_shown = true;
+	}
 }
+
