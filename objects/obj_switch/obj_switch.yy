@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cube",
-  "eventList":[],
+  "%Name":"obj_switch",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_cube",
+  "name":"obj_switch",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cube",
-    "path":"sprites/spr_cube/spr_cube.yy",
+    "name":"spr_switch_up",
+    "path":"sprites/spr_switch_up/spr_switch_up.yy",
   },
   "spriteMaskId":null,
   "visible":true,

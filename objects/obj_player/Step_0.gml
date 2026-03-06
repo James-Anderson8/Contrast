@@ -59,6 +59,12 @@ if (active_tilemap != -1) {
             }
             if (collision) break;
         }
+		if (place_meeting(x + hsp, y, obj_switch_block)) {
+			x += hsp;
+		}
+		else {
+			hsp = 0;
+		}
         
         // If collision, snap to wall
         if (collision) {
