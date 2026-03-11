@@ -1,5 +1,9 @@
 // Updated movement code
+// restart level
 
+if keyboard_check_pressed(ord("R")) {
+	room_restart();
+}
 /// STEP EVENT
 
 // ----- 1. GET INPUT AND SET SPEED -----
@@ -59,12 +63,7 @@ if (active_tilemap != -1) {
             }
             if (collision) break;
         }
-		if (place_meeting(x + hsp, y, obj_switch_block)) {
-			x += hsp;
-		}
-		else {
-			hsp = 0;
-		}
+	
         
         // If collision, snap to wall
         if (collision) {
