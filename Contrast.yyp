@@ -58,6 +58,7 @@
     {"id":{"name":"quit_button","path":"objects/quit_button/quit_button.yy",},},
     {"id":{"name":"read_help_menu","path":"objects/read_help_menu/read_help_menu.yy",},},
     {"id":{"name":"settings_button","path":"objects/settings_button/settings_button.yy",},},
+    {"id":{"name":"settings_text","path":"objects/settings_text/settings_text.yy",},},
     {"id":{"name":"Help","path":"rooms/Help/Help.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
@@ -66,6 +67,7 @@
     {"id":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
     {"id":{"name":"Level6","path":"rooms/Level6/Level6.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"id":{"name":"Settings","path":"rooms/Settings/Settings.yy",},},
     {"id":{"name":"scr_dimension_manager","path":"scripts/scr_dimension_manager/scr_dimension_manager.yy",},},
     {"id":{"name":"scr_tile_convert","path":"scripts/scr_tile_convert/scr_tile_convert.yy",},},
     {"id":{"name":"cloud","path":"sprites/cloud/cloud.yy",},},
@@ -92,6 +94,7 @@
         {"roomId":{"name":"Help","path":"rooms/Help/Help.yy",},},
       ],"groupName":"Other",},
     {"roomId":{"name":"Level6","path":"rooms/Level6/Level6.yy",},},
+    {"roomId":{"name":"Settings","path":"rooms/Settings/Settings.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

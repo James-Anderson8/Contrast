@@ -6,3 +6,4 @@ draw_text(647, 180, " door at the end");
 draw_text(647, 300, "WASD/Arrow keys to Move");
 draw_text(647, 420, "Space to switch dimensions (contrast)");
 draw_text(647, 540, "R to Restart Level");
+draw_text(647, 660, "(Press M to go back to menu)");
