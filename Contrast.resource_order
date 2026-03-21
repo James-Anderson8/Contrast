@@ -38,6 +38,7 @@
     {"name":"Level3","order":4,"path":"rooms/Level3/Level3.yy",},
     {"name":"Level4","order":5,"path":"rooms/Level4/Level4.yy",},
     {"name":"Level5","order":6,"path":"rooms/Level5/Level5.yy",},
+    {"name":"Level6","order":7,"path":"rooms/Level6/Level6.yy",},
     {"name":"scr_tile_convert","order":1,"path":"scripts/scr_tile_convert/scr_tile_convert.yy",},
     {"name":"cloud","order":2,"path":"sprites/cloud/cloud.yy",},
     {"name":"Menu_button","order":1,"path":"sprites/Menu_button/Menu_button.yy",},

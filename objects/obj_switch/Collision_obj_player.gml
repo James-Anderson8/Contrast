@@ -15,12 +15,14 @@ if (!flipped) {
 	flipped = true;
 	sprite_index = spr_switch_down;
 	
-	var base_map = obj_control_dimension.base_tilemap;
-	var contrast_map = obj_control_dimension.contrast_layer;
+	var control = obj_control_dimension;
+	var base_map = control.base_tilemap;
+	var contrast_map = control.contrast_tilemap;
 	
-	if (variable_global_exists("block_x") && variable_global_exists("block_y")) {
-		tilemap_set(base_map, 0, block_x, block_y);
-		tilemap_set(contrast_map, 0, block_x, block_y);
-	}	
+	for (var xx = block_x; xx < block_x + block_width; xx++) {
+		for (var yy = block_y; yy < block_y + block_height; yy++) {
+			tilemap_set(base_map, 0, xx, yy);
+			tilemap_set(contrast_map, 0, xx, yy);
+		}
+	}
 }
-		

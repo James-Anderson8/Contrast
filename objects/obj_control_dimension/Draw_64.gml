@@ -23,7 +23,7 @@ if (show_dimension_text > 0) {
     draw_set_alpha(alpha);
 	draw_set_halign(fa_center);
 	
-    if (background_dark) {
+    if (room == Level3 || room == Level5) {
         draw_set_color(c_white);  // White text on dark background
     } else {
         draw_set_color(c_black);  // Black text on light background
@@ -45,7 +45,7 @@ if (show_dimension_text > 0) {
 if (room == Level3 || room == Level4 || room = Level5 ) {  // Add more rooms once created
 	draw_sprite(spr_key, 0, 50, 50); // I think this line is drawing the big key sprite
 	
-	if (background_dark) {
+	if (room == Level3 || room == Level5) {
 		draw_set_colour(c_white);
 	}
 	else {
@@ -53,5 +53,6 @@ if (room == Level3 || room == Level4 || room = Level5 ) {  // Add more rooms onc
 	}
 	
 	draw_text(85, 55, "x " + string(global.keys));
+	draw_set_font(Title);
 	draw_set_colour(c_white);
 }
