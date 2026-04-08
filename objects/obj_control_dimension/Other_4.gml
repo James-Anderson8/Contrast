@@ -1,5 +1,4 @@
-/// ROOM START EVENT
-// Now layers exist! Get their IDs
+// Now layers exist so get their IDs
 base_layer = layer_get_id("Normal_tiles");
 contrast_layer = layer_get_id("Contrast_tiles");
 

@@ -1,3 +1,4 @@
+/*
 function scr_tile_convert(){
 	var base_layer = layer_get_id("Normal_tiles")	
 	var contrast_layer = layer_get_id("Contrast_tiles")

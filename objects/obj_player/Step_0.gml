@@ -1,21 +1,26 @@
-// Updated movement code
+// M for Menu
+if (room == Level1) {
+	if keyboard_check_pressed(ord("M")) {
+		room_goto(Menu);
+	}
+}
 // restart level
-
 if keyboard_check_pressed(ord("R")) {
 	room_restart();
 }
+
 /// STEP EVENT
 
-// ----- 1. GET INPUT AND SET SPEED -----
-hsp = 0;
-vsp = 0;
+//  1. Get inputs and set speed
+horizontal_speed = 0;
+vertical_speed = 0;
 
-if (keyboard_check(vk_left) || keyboard_check(ord("A"))) hsp = -move_speed;
-if (keyboard_check(vk_right) || keyboard_check(ord("D"))) hsp = move_speed;
-if (keyboard_check(vk_up) || keyboard_check(ord("W"))) vsp = -move_speed;
-if (keyboard_check(vk_down) || keyboard_check(ord("S"))) vsp = move_speed;
+if (keyboard_check(vk_left) || keyboard_check(ord("A"))) horizontal_speed = -move_speed;
+if (keyboard_check(vk_right) || keyboard_check(ord("D"))) horizontal_speed = move_speed;
+if (keyboard_check(vk_up) || keyboard_check(ord("W"))) vertical_speed = -move_speed;
+if (keyboard_check(vk_down) || keyboard_check(ord("S"))) vertical_speed = move_speed;
 
-// ----- 2. DETERMINE ACTIVE TILEMAP -----
+//  2. Determine which tile layer is active 
 var active_tilemap = -1;
 
 if (instance_exists(obj_control_dimension)) {
@@ -32,15 +37,16 @@ if (instance_exists(obj_control_dimension)) {
     }
 }
 
-// ----- 3. COLLISION CHECKING -----
+//  3. Collision checking
+
 if (active_tilemap != -1) {
     // Store original position
     var _start_x = x;
     var _start_y = y;
     
-    // ----- TRY HORIZONTAL MOVEMENT -----
-    if (hsp != 0) {
-        x += hsp;
+    //  Horizontal checking
+    if (horizontal_speed != 0) {
+        x += horizontal_speed;
         
         // Get player's bounding box in tile coordinates
         var left_tile = floor(x / 32);
@@ -67,18 +73,18 @@ if (active_tilemap != -1) {
         
         // If collision, snap to wall
         if (collision) {
-            if (hsp > 0) { // Moving right
+            if (horizontal_speed > 0) { // Moving right
                 x = (collision_x * 32) - 32; // Place player left of the tile
-            } else { // Moving left
+            } else {					 // Moving left
                 x = (collision_x * 32) + 32; // Place player right of the tile
             }
-            hsp = 0;
+            horizontal_speed = 0;
         }
     }
     
-    // ----- TRY VERTICAL MOVEMENT -----
-    if (vsp != 0) {
-        y += vsp;
+    //  Vertical checking
+    if (vertical_speed != 0) {
+        y += vertical_speed;
         
         // Get player's bounding box in tile coordinates
         var left_tile = floor(x / 32);
@@ -104,12 +110,12 @@ if (active_tilemap != -1) {
         
         // If collision, snap to wall
         if (collision) {
-            if (vsp > 0) { // Moving down
+            if (vertical_speed > 0) { // Moving down
                 y = (collision_y * 32) - 32; // Place player above the tile
-            } else { // Moving up
+            } else {				// Moving up
                 y = (collision_y * 32) + 32; // Place player below the tile
             }
-            vsp = 0;
+            vertical_speed = 0;
         }
     }
 }

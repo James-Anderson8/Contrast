@@ -1,4 +1,3 @@
 move_speed = 4;
-hsp = 0;
-vsp = 0;
-// grav = 0;
+horizontal_speed = 0;
+vertical_speed = 0;

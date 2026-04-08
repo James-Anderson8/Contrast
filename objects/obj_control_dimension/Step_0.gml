@@ -1,4 +1,3 @@
-/// STEP EVENT
 // Cooldown timer
 if (switch_cooldown > 0) {
     switch_cooldown--;

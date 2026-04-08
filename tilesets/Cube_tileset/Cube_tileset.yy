@@ -1,6 +1,6 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet1",
+  "%Name":"Cube_tileset",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":36,
@@ -10,7 +10,7 @@
     ],
     "TileDataFormat":1,
   },
-  "name":"TileSet1",
+  "name":"Cube_tileset",
   "out_columns":2,
   "out_tilehborder":3,
   "out_tilevborder":5,
