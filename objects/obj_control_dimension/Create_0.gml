@@ -1,4 +1,4 @@
-global.dimension = "base"; // Maybe change to "base" if not working
+global.dimension = "base";
 global.keys = 0;
 
 base_layer = layer_get_id("Normal_tiles");

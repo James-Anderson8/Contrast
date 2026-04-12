@@ -26,7 +26,7 @@ if (show_dimension_text > 0) {
         draw_set_colour(c_white);  // White text on dark background
     } else {
         draw_set_colour(c_black);  // Black text on light background
-    }
+    }	
 	
 	draw_set_font(Title);
     if (global.dimension == "base") {
@@ -46,7 +46,7 @@ if (room == Level3 || room == Level4 || room == Level5 ) {  // Add more rooms on
 	
 	if (room == Level3 || room == Level5) {
 		draw_set_colour(c_white);
-	}
+	} 
 	else {
 		draw_set_colour(c_black);
 	}

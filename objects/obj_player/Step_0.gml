@@ -4,9 +4,11 @@ if (room == Level1) {
 		room_goto(Menu);
 	}
 }
+
 // restart level
 if keyboard_check_pressed(ord("R")) {
 	room_restart();
+	global.keys = 0;
 }
 
 /// STEP EVENT
@@ -110,7 +112,7 @@ if (active_tilemap != -1) {
         
         // If collision, snap to wall
         if (collision) {
-            if (vertical_speed > 0) { // Moving down
+            if (vertical_speed > 0)	 { // Moving down
                 y = (collision_y * 32) - 32; // Place player above the tile
             } else {				// Moving up
                 y = (collision_y * 32) + 32; // Place player below the tile

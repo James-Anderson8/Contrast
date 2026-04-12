@@ -39,3 +39,5 @@ with (obj_wall) {
 
 show_debug_message("Conversion complete! " + string(wall_count) + " walls converted to tiles. Now you can delete obj_wall instances.");
 }
+
+*/
