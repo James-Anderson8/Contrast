@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Menu_text",
+  "%Name":"read_help_before_playing",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":53,
@@ -118,7 +118,7 @@
   "last":0,
   "lineHeight":64,
   "maintainGms1Font":false,
-  "name":"Menu_text",
+  "name":"read_help_before_playing",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

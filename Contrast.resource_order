@@ -28,7 +28,6 @@
     {"name":"obj_key","order":13,"path":"objects/obj_key/obj_key.yy",},
     {"name":"obj_player","order":10,"path":"objects/obj_player/obj_player.yy",},
     {"name":"obj_switch","order":15,"path":"objects/obj_switch/obj_switch.yy",},
-    {"name":"Object","order":18,"path":"objects/Object/Object.yy",},
     {"name":"play_button","order":3,"path":"objects/play_button/play_button.yy",},
     {"name":"quit_button","order":4,"path":"objects/quit_button/quit_button.yy",},
     {"name":"read_help_menu","order":14,"path":"objects/read_help_menu/read_help_menu.yy",},
@@ -51,6 +50,5 @@
     {"name":"spr_player","order":3,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_switch_down","order":5,"path":"sprites/spr_switch_down/spr_switch_down.yy",},
     {"name":"spr_switch_up","order":6,"path":"sprites/spr_switch_up/spr_switch_up.yy",},
-    {"name":"Sprite9","order":19,"path":"sprites/Sprite9/Sprite9.yy",},
   ],
 }
